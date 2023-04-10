@@ -6,13 +6,13 @@ let MAX_BOUNDARY_Z = 8;
 // color
 const white = new THREE.Color(0xffffff);
 const red = new THREE.Color(0xff0000);
-const green = new THREE.Color(0xc5e908);
+const green = new THREE.Color(0x3b5320);
 const blue = new THREE.Color(0x0000ff);
 const yellow = new THREE.Color(0xe69b00);
 const grey = new THREE.Color(0xe0a387);
 const illusion = new THREE.Color(0xf1a784);
 
-const colors = [yellow, red, illusion, blue, green, grey, illusion];
+const colors = [green, green, green, green, green, green, green];
 // -------------------------------------
 
 class Point {
