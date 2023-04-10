@@ -842,13 +842,13 @@ let MAX_BOUNDARY_Z = 8;
 // color
 const white = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0xffffff);
 const red = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0xff0000);
-const green = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0xc5e908);
+const green = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0x3b5320);
 const blue = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0x0000ff);
 const yellow = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0xe69b00);
 const grey = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0xe0a387);
 const illusion = new three__WEBPACK_IMPORTED_MODULE_1__.Color(0xf1a784);
 
-const colors = [yellow, red, illusion, blue, green, grey, illusion];
+const colors = [green, green, green, green, green, green, green];
 // -------------------------------------
 
 class Point {
