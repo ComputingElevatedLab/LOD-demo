@@ -177,7 +177,8 @@ let box = new Box(
   0,
   0,
   0,
-  Math.max(scene_width, scene_height, scene_depth)
+  Math.max(scene_width, scene_height, scene_depth),
+  0
 );
 qt = new Octree(box);
 let count = 0;
@@ -204,15 +205,16 @@ postProcessing();
 function animate(delta) {
   delta = Math.max(delta, 0.1);
   requestAnimationFrame(animate);
-  console.log(controls.object.position);
+  // console.log(controls.object.position);
   stats_mb.update();
   controls.autoRotate = true;
   controls.update();
+  mapCamera.rotation.z = camera.rotation.z;
   renderer.setViewport(0, 0, window.innerWidth, window.innerHeight);
   composerScreen.render(delta);
   renderer.clear(false, true, false);
   renderer.setClearColor(0x006432); // set the color you want
-  renderer.setViewport(20, 50, 256, 256);
+  renderer.setViewport(50, 50, 256, 256);
   composerMap.render(delta);
   // renderer.render(scene, camera);
 }
