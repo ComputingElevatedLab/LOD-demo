@@ -6,12 +6,18 @@ to install and run:
 1. clone the repo
 ```
 ```
-2. npm install ( it is not needed now because i have not put gitignore so you can just do npm update if you want to update package. Othewise, its fine)
+2. npm install 
 ```
 ```
 3. npm run dev
 ```
 Current render output:
 
-![image](https://user-images.githubusercontent.com/11494733/210715218-47b58d63-4b13-4f17-aa5a-5636f67321bd.png)
+![image](https://github.com/pravinpoudel/LOD-demo/assets/11494733/afae81eb-82cb-43c0-9d70-69642fc49714)
+
+To pan the scene, use left mouse button and use right mouse button to drag.
+
+For the construction of the octree, each node has a capacity of one, which enhances the visibility of the structure. This eliminates the need for a large number of points to achieve the desired behavior.
+
+
 
