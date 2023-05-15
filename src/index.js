@@ -196,17 +196,17 @@ controls.addEventListener("change", () => {
   });
 });
 
-const stats_mb = Stats();
-stats_mb.domElement.style.cssText = "position:absolute;top:50px;right:50px;";
-stats_mb.showPanel(2);
-document.body.appendChild(stats_mb.dom);
+// const stats_mb = Stats();
+// stats_mb.domElement.style.cssText = "position:absolute;top:50px;right:50px;";
+// stats_mb.showPanel(2);
+// document.body.appendChild(stats_mb.dom);
 initMapCamera();
 postProcessing();
 function animate(delta) {
   delta = Math.max(delta, 0.1);
   requestAnimationFrame(animate);
   // console.log(controls.object.position);
-  stats_mb.update();
+  // stats_mb.update();
   controls.autoRotate = true;
   controls.update();
   mapCamera.rotation.z = camera.rotation.z;
