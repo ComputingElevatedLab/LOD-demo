@@ -1,4 +1,4 @@
-# octree
+# Octree Node Bounding Boxes and Point Visualization for LOD Showcase
 
 to install and run:
 
